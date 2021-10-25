@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ba5975;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  .app {
+    color: #c7bdc0;
+    border-radius: 7%;
+    width: 300px;
+    background-color: #993652;
+    text-align: center;
+    min-height: 200px;
+  }
+  #btn1,
+  #btn2 {
+    padding: 5px;
+    background-color: #ba5975;
+    border: none;
+    color: #c7bdc0;
+  }
+  #text {
+    padding: 6px;
+    margin-right: 5px;
+    background-color: #ba5975;
+    color: #c7bdc0;
+    border: none;
+  }
+  #text::placeholder{
+    color: #c7bdc0;
+  }
+  ul {
+    border-top: 0.5px solid #c7bdc0;
+    text-align: left;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+    list-style: none;
+  }
+  
